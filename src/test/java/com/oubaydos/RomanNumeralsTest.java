@@ -40,5 +40,10 @@ class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assertions.assertEquals(500, romanNumerals.romanToInt("D"));
     }
+    @Test
+    public void shouldReturn1000GivenM() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assertions.assertEquals(1000, romanNumerals.romanToInt("M"));
+    }
 
 }
