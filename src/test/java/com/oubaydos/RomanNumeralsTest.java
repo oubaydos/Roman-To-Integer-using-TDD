@@ -25,5 +25,10 @@ class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assertions.assertEquals(10, romanNumerals.romanToInt("X"));
     }
+    @Test
+    public void shouldReturn50GivenL() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assertions.assertEquals(50, romanNumerals.romanToInt("L"));
+    }
 
 }
