@@ -85,4 +85,9 @@ class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assertions.assertEquals(58, romanNumerals.romanToInt("LVIII"));
     }
+    @Test
+    public void shouldReturn1994GivenMCMXCIV() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assertions.assertEquals(1994, romanNumerals.romanToInt("MCMXCIV"));
+    }
 }
