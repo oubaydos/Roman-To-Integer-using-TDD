@@ -15,5 +15,10 @@ class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assertions.assertEquals(1, romanNumerals.romanToInt("I"));
     }
+    @Test
+    public void shouldReturn5GivenV() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assertions.assertEquals(5, romanNumerals.romanToInt("V"));
+    }
 
 }
