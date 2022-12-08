@@ -75,4 +75,9 @@ class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assertions.assertEquals(400, romanNumerals.romanToInt("CD"));
     }
+    @Test
+    public void shouldReturn900GivenCM() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assertions.assertEquals(900, romanNumerals.romanToInt("CM"));
+    }
 }
