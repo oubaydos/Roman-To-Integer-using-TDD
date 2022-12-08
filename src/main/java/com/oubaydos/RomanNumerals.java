@@ -3,6 +3,6 @@ package com.oubaydos;
 public class RomanNumerals {
 
     public int romanToInt(String s) {
-        return 0;
+        return 1;
     }
 }
