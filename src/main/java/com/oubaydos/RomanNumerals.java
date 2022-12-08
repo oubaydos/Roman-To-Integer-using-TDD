@@ -21,6 +21,7 @@ public class RomanNumerals {
             put("XL", 40);
             put("XC", 90);
             put("CD", 400);
+            put("CM", 900);
         }};
         int res = 0;
         char temp;
