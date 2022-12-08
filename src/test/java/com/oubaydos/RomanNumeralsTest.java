@@ -80,4 +80,9 @@ class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assertions.assertEquals(900, romanNumerals.romanToInt("CM"));
     }
+    @Test
+    public void shouldReturn58GivenLVIII() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assertions.assertEquals(58, romanNumerals.romanToInt("LVIII"));
+    }
 }
