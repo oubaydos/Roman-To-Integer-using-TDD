@@ -20,6 +20,7 @@ public class RomanNumerals {
             put("IX", 9);
             put("XL", 40);
             put("XC", 90);
+            put("CD", 400);
         }};
         int res = 0;
         char temp;
