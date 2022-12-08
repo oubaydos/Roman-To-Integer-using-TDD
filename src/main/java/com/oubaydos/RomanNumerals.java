@@ -1,10 +1,11 @@
 package com.oubaydos;
 
+import java.util.Map;
+
 public class RomanNumerals {
 
     public int romanToInt(String s) {
-        if (s.equals("I")) return 1;
-        if (s.equals("X")) return 10;
-        return 5;
+        Map<String,Integer> conversionMap = Map.of("I",1,"X",10);
+        return conversionMap.getOrDefault(s,5);
     }
 }
