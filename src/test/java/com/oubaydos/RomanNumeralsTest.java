@@ -66,8 +66,13 @@ class RomanNumeralsTest {
         Assertions.assertEquals(40, romanNumerals.romanToInt("XL"));
     }
     @Test
-    public void shouldReturn40GivenXC() {
+    public void shouldReturn90GivenXC() {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assertions.assertEquals(90, romanNumerals.romanToInt("XC"));
+    }
+    @Test
+    public void shouldReturn400GivenCD() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assertions.assertEquals(400, romanNumerals.romanToInt("CD"));
     }
 }
